@@ -1,0 +1,33 @@
+<style type="text/css"> 
+  button 
+  {
+    line-height: 5px;
+    font-family: 'Times New Roman'; 
+    border: none;
+    border-radius: 7px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    background: indigo;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    min-width: 200px;
+    min-height: 100px;
+    max-width: 200px;
+    max-height: 100px;
+    text-align: center;
+    text-align-last: center;
+    text-anchor: start;
+  }
+  button:hover
+  { 
+    background: purple;
+  }
+  button:focus
+  {
+    background: mediumorchid;
+  }
+</style>

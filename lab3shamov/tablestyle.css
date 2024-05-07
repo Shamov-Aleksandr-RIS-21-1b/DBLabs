@@ -1,0 +1,64 @@
+<style>
+table 
+{
+	font-family: 'Times New Roman';
+	color: white;
+	border: none;
+	margin-bottom: 20px;
+	border-collapse: separate;
+}
+table thead th 
+{
+	font-weight: bold;
+	text-align: center;
+	border: none;
+	padding: 5px 5px;
+	background: indigo;
+	font-size: 14px;
+	border-top: 1px solid #ddd;
+}
+table tr th:first-child
+{
+	border-left: 1px solid #ddd;
+}
+table tr th:last-child
+{
+	border-right: 1px solid #ddd;
+}
+table thead tr th:first-child 
+{
+	border-radius: 7px 0 0 0;
+}
+table thead tr th:last-child 
+{
+	border-radius: 0 7px 0 0;
+}
+table tbody td 
+{
+	text-align: left;
+	border: none;
+	padding: 5px 5px;
+	font-size: 14px;
+	vertical-align: top;
+}
+table tbody tr:nth-child(odd) 
+{
+	background: purple;
+}
+table tbody tr:nth-child(even) 
+{
+	background: mediumorchid;
+}
+table tbody tr:last-child td
+{
+	border-bottom: 1px solid #ddd;
+}
+table tbody tr:last-child td:first-child
+{
+	border-radius: 0 0 0 7px;
+}
+table tbody tr:last-child td:last-child 
+{
+	border-radius: 0 0 7px 0;
+}
+</style>
